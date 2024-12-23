@@ -443,7 +443,7 @@ section.portada .portada-container .portada-container-2 {
 }
 
 section.portada .portada-container .row.d-flex {
-  height: 690px;
+  /*height: 690px;*/
   margin: 0;
 }
 
@@ -661,7 +661,7 @@ section.portada .box-nombres-fecha-portada .ampersand-portada {
   position: absolute;
   z-index: -1;
   width: 180px;
-  top: 215px;
+  top: 15px;
 }
 
 section.portada .box-nombres-fecha-portada .ampersand-portada path {
@@ -677,8 +677,9 @@ section.portada .content-portada span.fecha {
   line-height: 25px;
   color: var(--color-fecha-portada);
   padding: 10px 30px 10px;
-  margin-bottom: 50px;
-  margin-top: 130px;
+  padding-top: 0;
+  /* margin-bottom: 50px;
+  /*margin-top: 130px;
   /* border: 2px solid;
   border-image-slice: 1;*/
   border-width: 1px;
@@ -715,11 +716,11 @@ section.portada .content-portada h1 {
 }
 
 section.portada .box-nombres-fecha-portada h1:nth-of-type(2) {
-  margin-top: -10px;
+  margin-top: 0;
 }
 
 section.portada .box-frase-portada {
-  margin-top: 25px;
+  margin-top: 0px;
 }
 
 section.portada .box-frase-portada p {
@@ -729,6 +730,7 @@ section.portada .box-frase-portada p {
   line-height: 30px;
   text-align: center;
   color: var(--color-frase-portada);
+  padding-right: 10%;
 }
 
 section.portada .box-frase-portada p svg {

@@ -105,23 +105,15 @@
         <section class="portada">
 
             <div class="d-md-flex">
-                <!-- Musica -->
-                <!-- Player de Música -->
-                <div class=" bottom-4 right-4">
-                    <button id="music-button" onclick="toggleMusic()"
-                        class="w-16 m-4 h-16 bg-green-100 text-white rounded-full flex items-center justify-center">
-                        🎵
-                    </button>
-                    <audio id="background-music" loop>
-                        <source src="media/Ruth_B__-_Dandelions__Audio_.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
+
                 <!-- Imagen portada -->
                 <div class="portada-picture">
+
                     <picture>
-                        <source type="image/webp" srcset="images/GRACA2.jpeg" width="100%">
+                        <source type="image/webp" srcset="images/8.jpeg" width="100%" height="auto">
                         <source type="image/png" srcset="images/GRACA2.png">
                         <img src="images/GRACA2.png" alt="" loading="lazy">
+
                     </picture>
 
                     <img class="injectable divisor-vertical-portada" src="images/curva_portada_vertical.svg" alt="">
@@ -135,9 +127,16 @@
                     <div class="portada-container-2">
 
                         <picture>
+                            <source type="image/webp" srcset="images/flores__VERDE1.png" width="90%">
+                            <source type="image/png" srcset="images/GRACA2.png">
+                            <img src="images/GRACA2.png" alt="" loading="lazy">
+
+                        </picture>
+                        <!--
+                        <picture>
                             <source type="image/webp" srcset="images/flores__VERDE1.webp">
                             <source type="image/png" srcset="images/flores__VERDE1.png">
-                            <img class="adorno adorno-1" data-aos="fade-down" data-aos-delay="500"
+                            <img class="adorno adorno-1" data-aos="fade-down" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-once="false" src="images/flores_Grupo01_A.png" alt=""
                                 loading="lazy">
                         </picture>
@@ -145,11 +144,21 @@
                         <picture>
                             <source type="image/webp" srcset="images/flores_Grupo01_C.webp">
                             <source type="image/png" srcset="images/flores_Grupo01_C.png">
-                            <img class="adorno adorno-3" data-aos="fade-down" data-aos-delay="400"
+                            <img class="adorno adorno-3" data-aos="fade-down" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-once="false" src="images/flores_Grupo01_C.png" alt=""
-                                loading="lazy">
+                                loading="lazy">-->
                         </picture>
-
+                        <!-- Musica -->
+                        <!-- Player de Música -->
+                        <div class="bottom-4 right-4 ">
+                            <button id="music-button" onclick="toggleMusic()"
+                                class="w-12 ml-2 h-12 bg-lime-800 text-white rounded-full flex items-center justify-center">
+                                🎵
+                            </button>
+                            <audio id="background-music" loop>
+                                <source src="media/Ruth_B__-_Dandelions__Audio_.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
 
                         <div class="row d-flex justify-content-center align-items-center">
 
@@ -163,29 +172,31 @@
 
 
                                     <span class="fecha">
-                                        04.01.2025 </span>
-                                    <br><br>
-                                    <img class="injectable ampersand-portada" src="images/ampersand.svg" alt="">
+                                        04.01.2025
+
+                                    </span>
+
 
                                     <h1>Graça</h1>
                                     <!-- <span>&</span> -->
+                                    <img class="injectable ampersand-portada" src="images/ampersand.svg" width="100%"
+                                        alt="">
+
                                     <h1>Euripedes</h1>
                                 </div>
 
                                 <div class="box-frase-portada">
-                                    <p width="50%">
+                                    <p width="30%">
                                         <img class="injectable comilla-apertura" src="images/comilla-apertura.svg"
-                                            alt="" width="20%"> <br>
-                                        <br />
+                                            alt="" width="20%">
 
                                         As muitas águas não poderiam apagar este amor, nem os rios afogá-lo: ainda que
                                         alguém desse toda a fazenda de sua casa
                                         por este amor, certamente a desprezariam.
-                                        <br /><br />
 
-
+                                        <br>
                                         <strong p-10>Cantares 8:7
-                                        </strong><br />
+                                        </strong>
 
                                         <img class="injectable comilla-cierre" src="images/comilla-cierre.svg"
                                             width="20%" alt="">
@@ -199,10 +210,61 @@
                         </div>
 
                     </div>
-
+                    <!-- Divisor animado -->
+                    <div class="row">
+                        <svg class="editorial" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 "
+                            preserveAspectRatio="none">
+                            <defs>
+                                <path id="gentle-wave" d="M-160 44c30 0 
+                                                    58-18 88-18s
+                                                    58 18 88 18 
+                                                    58-18 88-18 
+                                                    58 18 88 18
+                                                    v44h-352z" />
+                            </defs>
+                            <g class="parallax1">
+                                <use xlink:href="#gentle-wave" x="50" y="3" fill="#eaf6f8" />
+                            </g>
+                            <g class="parallax2">
+                                <use xlink:href="#gentle-wave" x="50" y="0" fill="#598d5a" />
+                            </g>
+                            <g class="parallax3">
+                                <use xlink:href="#gentle-wave" x="50" y="9" fill="#dedede" />
+                            </g>
+                            <g class="parallax4">
+                                <use xlink:href="#gentle-wave" x="50" y="6" fill="#eaf6f8" />
+                            </g>
+                        </svg>
+                    </div>
                 </div>
 
-
+        <!-- Divisor animado -->
+        <div class="row">
+            <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28 " preserveAspectRatio="none">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 
+                                                    58-18 88-18s
+                                                    58 18 88 18 
+                                                    58-18 88-18 
+                                                    58 18 88 18
+                                                    v44h-352z" />
+                </defs>
+                <g class="parallax1">
+                    <use xlink:href="#gentle-wave" x="50" y="3" fill="#eaf6f8" />
+                </g>
+                <g class="parallax2">
+                    <use xlink:href="#gentle-wave" x="50" y="0" fill="#598d5a" />
+                </g>
+                <g class="parallax3">
+                    <use xlink:href="#gentle-wave" x="50" y="9" fill="#dedede" />
+                </g>
+                <g class="parallax4">
+                    <use xlink:href="#gentle-wave" x="50" y="6" fill="#eaf6f8" />
+                </g>
+            </svg>
+        </div>
             </div>
 
         </section>
@@ -210,6 +272,7 @@
 
         <!-- Cuenta Regresiva -->
         <section class="cuenta-regresiva">
+
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
                     <br><br>
@@ -420,7 +483,7 @@
                     <div>
                         <div class="polaroid">
 
-                            <img src="images/1.jpg" alt="">
+                            <img src="images/8.jpeg" alt="">
 
                         </div>
                     </div>
@@ -431,7 +494,7 @@
                     <div>
                         <div class="polaroid">
 
-                            <img src="images/2.jpg" alt="">
+                            <img src="images/10.jpeg" alt="">
 
                         </div>
                     </div>
@@ -442,7 +505,7 @@
                     <div>
                         <div class="polaroid">
 
-                            <img src="images/3.jpg" alt="">
+                            <img src="images/6.jpeg" alt="">
 
                         </div>
                     </div>
@@ -453,7 +516,7 @@
                     <div>
                         <div class="polaroid">
 
-                            <img src="images/4.jpg" alt="">
+                            <img src="images/GRACA4.png" alt="">
 
                         </div>
                     </div>
@@ -588,7 +651,7 @@
         <!-- Instagram-->
         <section class="instagram">
 
-            <!-- Divisor -->
+            <!-- Divisor 
             <img class="injectable divisor-superior-instagram" src="images/img_ondas05.svg" alt="">
 
             <div class="container">
@@ -614,11 +677,11 @@
                     <a target="_blank" href="https://www.instagram.com/" class="boton">Veja no Instagram</a>
 
                 </div>
-            </div>
+            </div>-->
 
-            <!-- Divisor -->
+            <!-- Divisor
             <img class="injectable divisor-inferior-instagram" src="images/img_ondas06.svg" alt="">
-
+        -->
         </section>
         <!-- Footer-->
         <section class="footer">

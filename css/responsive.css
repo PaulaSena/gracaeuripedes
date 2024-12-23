@@ -172,6 +172,28 @@
     -o-border-radius: 50%;
 }
 
+/* ocultat flor de mod desktop */
+.portada-container-2 .picture source{
+  display: none;
+}
+
+section.portada .portada-container .portada-container-2 img {
+    /* width: 100%; */
+    /* max-width: 610px; */
+    /* background: var(--color-fondo-secciones); */
+    /* padding-bottom: 60px; */
+    /* position: relative; */
+    display: none;
+}
+
+
+/*botao musica responsivo*/
+.bottom-4.right-4 {
+    width: 100%;
+    background-color: white;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
   section.portada .box-frase-portada p {
     font-size: 20px;
     line-height: 25px;
