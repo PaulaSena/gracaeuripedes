@@ -1,0 +1,535 @@
+/* Mobile */
+@media only screen and (max-width: 767px) {
+
+  #modalMusica .modal-content p {
+    font-size: 70px;
+    line-height: 65px;
+    background-size: 120px;
+    background-position-y: 80px;
+    padding-bottom: 20px;
+  }
+
+  #modalMusica .modal-content p span {
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 20px;
+  }
+
+  #modalMusica .modal-content .boton {
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+
+  #modalMusica .adorno {
+    width: 100%;
+    max-width: 240px;
+    margin-bottom: 10px;
+  }
+
+  #modalMusica .adorno.adorno-2 {
+    margin-top: 8px;
+  }
+
+  #modalMusica .modal-content span.aclara-musica {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #modalMusica .modal-content p.bienvenida-modal-musica {
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height:22px
+  }
+
+  #modalMusica .modal-content .nombres-modal-musica p {
+    font-size: 65px;
+    line-height: 70px;
+  }
+
+  #modalMusica .ampersand-modal-musica {
+    width: 140px;
+    top: -10px;
+  }
+
+
+  .title {
+    font-size: 45px;
+    line-height: 40px;
+    padding: 0 15px;
+    margin-bottom: 5px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+    padding: 0 15px;
+    line-height: 25px;
+    margin-top: 0;
+  }
+
+  section.portada .divisor-vertical-portada {
+    display: none;
+  }
+
+  section.portada .content-portada h1 {
+    font-size: 80px;
+    line-height: 85px;
+  }
+
+  section.portada .box-nombres-fecha-portada .ampersand-portada {
+    width: 160px;
+    top: 68px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  section.portada .portada-picture {
+    width: 100%;
+    height: 460px;
+    position: relative;
+  }
+
+  section.portada .portada-picture::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/curva_portada_horizontal.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    z-index: 0;
+    top: 1px;
+    left: 0;
+  }
+
+  section.portada .adorno-1,
+  section.portada .adorno-2,
+  section.portada .adorno-3,
+  section.portada .adorno-4 {
+    display: none;
+  }
+
+  section.portada .portada-container .row.d-flex {
+    height: 590px;
+    margin-top: -25px;
+  }
+
+  section.portada .portada-container {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  section.cuenta-regresiva .box-aros {
+    width: 100%;
+    height: auto;
+    top: -15px
+  }
+
+  section.cuenta-regresiva .box-aros .box-circulo .corazon-falta {
+    margin-top: 0px;
+  }
+
+  section.cuenta-regresiva .adorno-1 {
+    position: absolute;
+    width: 235px;
+    top: 0px;
+    left: 20px;
+  }
+
+  section.portada .box-nombres-fecha-portada h1 span {
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 15px;
+  }
+
+  section.portada .content-portada span.fecha:before {
+    right: -40px;
+  }
+
+  section.portada .content-portada span.fecha:after {
+    left: -40px;
+  }
+
+  section.portada .content-portada {
+    width: 95%;
+  }
+
+  section.portada .content-portada span.fecha {
+    width: 100%;
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+    margin-top: 0;
+    border-radius: 50%;
+    background-color:white ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+  section.portada .box-frase-portada p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  section.portada .box-frase-portada {
+    margin-top: 25px;
+    margin-bottom: 55px
+  }
+
+  section.portada::after {
+    display: none;
+  }
+
+  section.portada .divisor-inferior-portada {
+    bottom: -130px;
+  }
+
+  ul.lang-inv {
+    top: -85px;
+  }
+
+  section.cuenta-regresiva .box-aros .box-circulo span.falta {
+    font-size: 53px;
+    margin-top: 10px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.number {
+    font-size: 35px;
+  }
+
+  section.footer h4 {
+    font-size: 75px;
+    line-height: 65px;
+  }
+
+  section.footer .col-nombres-footer {
+    background-size: 150px;
+    background-position-y: 10px;
+    padding: 30px 0;
+  }
+
+  section.footer h4 span {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  section.footer .col-acciones-footer ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  section.cuenta-regresiva .reloj-col span.time {
+    font-size: 22px;
+  }
+
+  section.cuenta-regresiva .reloj {
+    margin-top: 5px;
+  }
+
+  section.footer .col-acciones-footer ul a,
+  section.footer .addeventatc span.nameBtn {
+    font-size: 20px;
+  }
+
+
+  section.cuenta-regresiva .box-aros .box-circulo {
+    padding: 68px 0px;
+    height: 360px;
+    width: 270px;
+    max-width: 350px;
+    padding-left: 8%;
+  }
+
+  section.ceremonia-fiesta .col-ceremonia h3,
+  section.ceremonia-fiesta .col-fiesta h3 {
+    padding: 8px 30px;
+    font-size: 40px
+  }
+
+  section.ceremonia-fiesta .col-ceremonia .anim-anillos,
+  section.ceremonia-fiesta .anim-fiesta {
+    width: 50%;
+    min-width: 150px;
+    max-width: 190px;
+    height: auto;
+  }
+
+  section.ceremonia-fiesta .adorno-1 {
+    position: absolute;
+    width: 80px;
+    top: 850px;
+    left: -1px;
+  }
+
+  section.ceremonia-fiesta .adorno-2 {
+    position: absolute;
+    width: 85px;
+    top: 850px;
+    left: -1px;
+  }
+
+  section.ceremonia-fiesta .adorno-3 {
+    position: absolute;
+    width: 90px;
+    top: 850px;
+    left: -1px;
+  }
+
+  section.ceremonia-fiesta .info-col .info-box p {
+    font-size: 18px;
+  }
+
+  section.instagram .title {
+    font-size: 40px;
+  }
+
+  section.footer {
+    padding-bottom: 20%;
+    padding-top: 20%;
+  }
+
+  section.regalos {
+    padding-top: 0;
+    padding-bottom: 140px;
+  }
+
+  section.fiesta {
+    padding-bottom: 140px;
+    padding-top: 140px;
+  }
+
+  section.fiesta .subtitle {
+    padding-bottom: 50px;
+  }
+
+  section.fiesta .item-fiesta .adorno.adorno-1 {
+    position: absolute;
+    top: -90px;
+    left: -40px;
+    z-index: -1;
+    width: 195px;
+  }
+
+  section.fiesta .item-fiesta .adorno.adorno-2 {
+    position: absolute;
+    top: -30px;
+    left: 15px;
+    z-index: 3;
+    width: 110px;
+  }
+
+  section.fiesta .divisor-inferior-fiesta {
+    margin-top: 50px;
+  }
+
+  section.ceremonia-fiesta {
+    background-position: center 70px;
+  }
+
+  section.ceremonia-fiesta .lineas-fondo {
+    top: 40px;
+  }
+
+
+  section.ceremonia-fiesta .col-ceremonia h3:before,
+  section.ceremonia-fiesta .col-fiesta h3:before {
+    left: -10px;
+    width: 25px;
+    height: 64px;
+  }
+
+
+  section.ceremonia-fiesta .col-ceremonia h3:after,
+  section.ceremonia-fiesta .col-fiesta h3:after {
+    right: -10px;
+    width: 20px;
+    height: 64px;
+  }
+
+  section.galeria {
+    padding-top: 70px;
+  }
+
+  #modalMapa .modal-header .modal-title {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+
+  #modalMapa .modal-content-2 .adorno-1 {
+    top: -125px;
+  }
+
+  section.ceremonia-fiesta .info-col .info-box a.boton {
+    min-width: 80%;
+  }
+
+  section.fiesta .fiesta-flor-izq {
+    max-width: 25%;
+    bottom: -30%;
+  }
+
+  section.fiesta:after {
+    bottom: -35px;
+  }
+
+  section.instagram .container {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+
+  section.instagram:before {
+    top: -2px;
+  }
+
+  section.instagram .hashtag {
+    font-size: 40px;
+  }
+
+  section.instagram:after {
+    bottom: 0;
+  }
+
+  section.fiesta .item-fiesta a.boton {
+    min-width: 100%
+  }
+
+  #controlador-musica {
+    top: initial;
+    bottom: 0;
+    right: 0;
+  }
+
+  .music-anim-icon {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+  }
+
+  section.footer .col-nombres-footer .ampersand-footer {
+    width: 160px;
+  }
+
+  section.footer .col-acciones-footer ul li {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  section.cuenta-regresiva {
+    height: 330px
+  }
+
+  section.ceremonia-fiesta:after {
+    bottom: -2px;
+  }
+
+  section.regalos .adorno-1 {
+    position: absolute;
+    width: 80px;
+    top: 160px;
+    left: -1px;
+  }
+
+  section.regalos .adorno-2 {
+    position: absolute;
+    width: 85px;
+    top: 160px;
+    left: -1px;
+  }
+
+  section.regalos .adorno-3 {
+    position: absolute;
+    width: 90px;
+    top: 160px;
+    left: -1px;
+  }
+
+  .modal-dialog .white-circle-icon {
+    top: -80px;
+  }
+
+  .modal .modal-content-2 .adorno-2 {
+    position: absolute;
+    width: 95px;
+    top: -39px;
+    left: -30px;
+  }
+
+  .modal .modal-content-2 .adorno-1 {
+    position: absolute;
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    top: -140px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+  }
+
+  .modal .modal-content-2 .modal-header .modal-title {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: var(--fuente-1);
+  }
+
+  .modal-dialog form label {
+    font-size: 18px;
+  }
+
+  .modal-dialog ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 14px;
+    /* Firefox */
+  }
+
+  .modal-dialog :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 14px;
+  }
+
+  .modal-dialog ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-size: 14px;
+  }
+
+  .flags-laguages {
+    padding: 5px;
+  }
+
+  .modal.modal-transparent .modal-header h3 {
+    font-size: 25px;
+  }
+
+  #modal-lang .modal-body {
+    padding: 0
+  }
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+  section.portada::after {
+    bottom: -520px;
+  }
+
+}
+
+@media only screen and (min-width: 2100px) {
+
+  section.portada::after {
+    bottom: -720px;
+  }
+
+}

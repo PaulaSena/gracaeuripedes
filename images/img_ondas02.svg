@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 8192 1792" style="enable-background:new 0 0 8192 1792;" xml:space="preserve">
+	 
+<style type="text/css">
+	.curva-2{fill:url(#gradiet-curva-2);}
+</style>
+
+
+<g>
+	<g>
+
+		<!-- Curva 1 -->
+		<path class="curva-1" d="M8872.9,1183.9C8388,912.2,7306.3,435.5,6027.3,693.4c-327.4,66-609.2,148.4-861.6,236.9
+			c300.4,63.9,593.1,124.5,873.7,176.7C7449,1369.2,8359.7,1292.6,8872.9,1183.9z"/>
+
+
+		<!-- Gradiet para curva 2 -->
+		<linearGradient id="gradiet-curva-2" gradientUnits="userSpaceOnUse" x1="-11446.7275" y1="961.8384" x2="10090.4512" y2="961.8384">
+			<stop class="g1" offset="30%"/>
+			<stop class="g2" offset="60%"/>
+			<stop class="g3" offset="100%"/>
+		</linearGradient>
+		
+		<!-- Curva 2 -->
+		<path class="curva-2" d="M8872.9,1183.9c-513.2,108.7-1423.9,185.3-2833.4-77c-280.6-52.2-573.3-112.8-873.7-176.7
+			c-1291-274.6-2723.3-611.1-3938.4-611.1c-779.3,0-1469.1,138.3-1975.2,520v25.9C611.2,516,2358,984.4,4203.2,1322.5
+			c490.1,89.8,987.2,170.4,1485.8,224c1569.2,168.8,2597-58,3236.7-332.4C8909,1204.3,8891.4,1194.3,8872.9,1183.9z"/>
+			
+	</g>
+</g>
+
+
+<!-- Fondo continuidad -->
+<path class="fondo-continuidad" d="M5689,1546.5c-498.6-53.6-995.7-134.2-1485.8-224C2681,1043.6,1225.8,676,0,751.9V1792h8192v-341.6
+	C7576.9,1592.8,6758.8,1661.6,5689,1546.5z"/>
+
+</svg>
